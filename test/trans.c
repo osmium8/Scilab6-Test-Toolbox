@@ -10,7 +10,7 @@
 #include<stdio.h>
 #include "trans.h"
 
-void transpose(int n, int m, int A[][m], int B[m][n]) 
+void transpose(int n, int m, int A[n][m], int B[m][n]) 
 {     
     int i, j; 
     for (i = 0; i < m; i++) {
