@@ -3,8 +3,11 @@
 
 int main(void)
 {
-	int array[][3] = {{1,2,3}, {4,5,6}, {7,8,9}};
-	int m = 3, n = 3; 
+	int array[2][3] = {{1, 1, 1},
+                       {2, 2, 2}};
+    
+    	int transpose_array[3][2];
+	int n = 2, m = 3;
 	
 	printf("Inside main \n");
 	
@@ -18,10 +21,10 @@ int main(void)
         }
         
         printf("calling transpose() ...\n");
-        transpose(n, m, array);
-        for (i = 0; i < n; i++) {
-      	    for (j = 0; j < m; j++)  {
-        	printf("%d ", array[i][j]);
+        transpose(n, m, array, transpose_array);
+        for (i = 0; i < m; i++) {
+      	    for (j = 0; j < n; j++)  {
+        	printf("%d ", transpose_array[i][j]);
             }
             printf("\n");
         }
