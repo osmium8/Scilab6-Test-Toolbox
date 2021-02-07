@@ -3,8 +3,8 @@
 * paramters
 * n = number of rows
 * m = number of columns
-* A = 2D array, n*m
-* B = 2D array, m*n
+* A = input matrix (2D array, n*m)
+* B = output matrix (2D array, m*n) transpose of matrix A
 */
 
 #include<stdio.h>
