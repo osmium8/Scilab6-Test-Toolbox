@@ -20,7 +20,7 @@ int main(void)
             printf("\n");
         }
         
-        printf("\ncalling transpose() ...\n");
+        printf("\ncalling transpose() ...\n\n");
 	printf("Output matrix \n");
         transpose(n, m, array, transpose_array);
 	
