@@ -9,9 +9,9 @@ int main(void)
     	int transpose_array[3][2];
 	int n = 2, m = 3;
 	
-	printf("Inside main \n");
+	printf("Inside main \n\n");
 	
-	printf("Input Array \n");
+	printf("Input matrix \n");
 	int i, j;
     	for (i = 0; i < n; i++) {
       	    for (j = 0; j < m; j++)  {
@@ -20,8 +20,10 @@ int main(void)
             printf("\n");
         }
         
-        printf("calling transpose() ...\n");
+        printf("\ncalling transpose() ...\n");
+	printf("Output matrix \n");
         transpose(n, m, array, transpose_array);
+	
         for (i = 0; i < m; i++) {
       	    for (j = 0; j < n; j++)  {
         	printf("%d ", transpose_array[i][j]);
