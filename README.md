@@ -7,15 +7,20 @@
     2. `exec loader.sce`
     3.  Declare matrix
     
+        
+        `matrix = [1,1,1; 2,2,2; 3,3,3]`
         ```
         1 1 1
         2 2 2
         3 3 3
         ```
         
-        `matrix = [1,1,1; 2,2,2; 3,3,3]`
         
-        `transpose_matrix = transpose(matrix)`
+        Call the function `transpose` & pass `matrix` as parameter
+        
+        ```
+        transpose_matrix = transpose(matrix)
+        ```
     4. Now transpose of "matrix" is saved in "transpose_matrix"
     5. `transpose_matrix`
         
