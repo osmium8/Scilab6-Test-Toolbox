@@ -37,7 +37,7 @@ int main(void)
 		}
 		printf("\n");
 		
-		printf("Calling trans... \n\n");
+		printf("Calling trans() ... \n\n");
 		trans(rows, columns, matrix, t_matrix);
 		
 	    printf("Printing Output matrix \n");
