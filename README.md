@@ -18,7 +18,7 @@
         
         Call the function `transpose` & pass `matrix` as parameter
         
-        ```
+        ```scilab
         transpose_matrix = transpose(matrix)
         ```
     4. Now transpose of "matrix" is saved in "transpose_matrix"
@@ -30,7 +30,17 @@
         1 2 3
         ```
 ---
+### System requirements
+Prerequisite : gcc installed
 
+Tested on
+
+gcc version : 9.3.0
+
+OS          : Ubuntu 20.04
+
+
+---
 
 This repository is a test toolbox for Scilab. It requires "thirdparty" directory which can be downloaded as "external-library.zip" file from the page: https://scilab.in/fossee-scilab-toolbox. The "thirdparty" directory contains compiled library for a simple "multiplication" function written in C. After copying the "thirdparty" directory to the toolbox directory, on the scilab console run "exec builder.sce" to build the toolbox and then run "exec loader.sce" to load the toolbox.  Type "help" in the scilab console and browse through the help content of "test_toolbox". The external-library.zip file also contains separate instructions to work with MinGW on Windows OS.
 
