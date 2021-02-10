@@ -46,8 +46,8 @@ if (nout != 1)
 		mul(ar, in1[0],in2[0]);
 
 		out[0] = scilab_createDoubleMatrix2d(env, 1, 1, 0);
-   	scilab_getDoubleArray(env, out[0], &out1);
-
+   		scilab_getDoubleArray(env, out[0], &out1);
+		
 
 		out1[0] = ar[0];
     return 0;
