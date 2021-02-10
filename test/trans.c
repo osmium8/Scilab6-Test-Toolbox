@@ -1,6 +1,8 @@
 /*
-* This c program returns transpose of a given matrix
-* paramters
+* Returns transpose of a given matrix
+* 
+* @paramters
+* 
 * rows = number of rows
 * columns = number of columns
 * matrix = input matrix (2D array, rows * columns)
