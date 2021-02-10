@@ -18,8 +18,7 @@ extern "C"
 	    double* in1 = NULL;
 	    double* out1 = NULL;
 
-	    /* --> a = transpose(arr[i,j])
-	    /* check that we have only 2 input arguments */
+	    /* check that we have only 1 input arguments */
 	    /* check that we have only 1 output argument */
 	    if (nin > 1)
 	    {
@@ -33,7 +32,8 @@ extern "C"
 		return 1;
 	    }
 
-	    size_matrix = scilab_getDim2d(env, in[0], &rows, &columns); // save 0th arg's row & col -> rows & columns
+		// save 0th arg's row & col -> rows & columns
+	    size_matrix = scilab_getDim2d(env, in[0], &rows, &columns); 
 	    scilab_getDoubleArray(env, in[0], &in1);
 	    
 	    //printf("\n TRACE : latest size_matrix = %d rows = %d columns = %d\n",size_matrix, rows, columns);
@@ -67,7 +67,7 @@ extern "C"
 			printf("\n printing matrix[][] \n");
 			for(int i = 0; i<rows; i++) {
 				for(int j = 0; j<columns; j++) {	
-					printf("%f ",matrix[i][j]); //matrix[i/columns][i%columns]);// = in1[i];
+					printf("%f ",matrix[i][j]);
 				}
 				printf("\n");
 			}
