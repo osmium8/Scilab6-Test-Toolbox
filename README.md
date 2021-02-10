@@ -3,7 +3,7 @@
 2. Open **Scilab**
 3. Click on file browser icon and select the directory of this repository `"Scilab6-Test-Toolbox"`
 4. In **Scilab Console** execute following commands
-    1. `exec builder.sce`
+    1. `exec builder.sce` (if any prompt 'help_from_sci', press `Create anyway`)
     2. `exec loader.sce`
     3.  Declare matrix
     
