@@ -1,3 +1,5 @@
+This is a scilab toolbox to call transpose function(written in C) for n * m matrix.
+
 ## Steps to use Transpose function
 1. Clone/download this repository
 2. Open **Scilab**
@@ -35,9 +37,10 @@ Prerequisite : gcc installed
 
 Tested on
 
-gcc version : 9.3.0
 
-OS          : Ubuntu 20.04
+1. Scilab      : 6.1.0
+2. gcc version : 9.3.0
+3. OS          : Ubuntu 20.04
 
 
 ---
